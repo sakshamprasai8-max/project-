@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import trophyImg from '../assets/trophy.webp'
 import ticketImg from '../assets/ticket.webp'
+import pointsImg from '../assets/points.webp'
 
 function Home() {
   return (
@@ -43,7 +44,7 @@ function Home() {
             to="/tickets"
             className="inline-block bg-yellow-300 text-gray-950 font-bold px-6 py-3 rounded-full hover:bg-yellow-400 transition"
           >
-            View Tickets
+            Get Your Tickets
           </Link>
         </div>
 
@@ -55,6 +56,28 @@ function Home() {
           />
         </div>
 
+               <div className="text-center md:text-left">
+          <h2 className="text-3xl font-extrabold text-yellow-300 mb-4">
+            Check the Standings
+          </h2>
+          <p className="text-lg text-white/80 mb-8 max-w-xl">
+            See how your favorite team is performing this season
+          </p>
+          <Link
+            to="/points-table"
+            className="inline-block bg-yellow-300 text-gray-950 font-bold px-6 py-3 rounded-full hover:bg-yellow-400 transition"
+          >
+            View Points Table
+          </Link>
+        </div>
+
+        <div className="rounded-2xl overflow-hidden shadow-2xl border-4 border-yellow-300/30">
+          <img
+            src={pointsImg}
+            alt="NPL Points Table"
+            className="w-full h-full object-cover"
+          />
+        </div>
       </div>
     </div>
     
