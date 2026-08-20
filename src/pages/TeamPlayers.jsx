@@ -14,8 +14,8 @@ function TeamPlayers() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-red-900 via-gray-950 to-blue-950 text-white p-8">
-      <Link to="/teams" className="text-yellow-300 hover:underline mb-6 inline-block">
+    <div className="min-h-screen bg-gradient-to-b from-gray-950 via-slate-900 to-gray-950 text-white p-8">
+      <Link to="/teams" className="text-emerald-400 hover:underline mb-6 inline-block">
         ← Back to Teams
       </Link>
 
@@ -23,12 +23,12 @@ function TeamPlayers() {
         {team.logo && (
           <img src={team.logo} alt={team.name} className="w-16 h-16 object-contain" />
         )}
-        <h1 className="text-4xl font-bold text-yellow-300">{team.name} — Players</h1>
+        <h1 className="text-4xl font-bold text-emerald-400">{team.name} — Players</h1>
       </div>
 
       <ul className="grid grid-cols-2 md:grid-cols-3 gap-3 max-w-4xl">
         {team.players.map((player, index) => (
-          <li key={index} className="bg-white/5 rounded-lg px-4 py-3 text-white/90">
+          <li key={index} className="bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-slate-200">
             {player}
           </li>
         ))}

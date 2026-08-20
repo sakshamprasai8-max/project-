@@ -6,6 +6,8 @@ import TeamPlayers from '../pages/TeamPlayers'
 import Matches from '../pages/Matches'
 import PointsTable from '../pages/PointsTable'
 import Tickets from '../pages/Tickets'
+import Login from '../pages/Login'
+import Signup from '../pages/Signup'
 
 function AppRouter() {
   return (
@@ -18,6 +20,8 @@ function AppRouter() {
         <Route path="/matches" element={<Matches />} />
         <Route path="/points-table" element={<PointsTable />} />
         <Route path="/tickets" element={<Tickets />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
       </Routes>
     </BrowserRouter>
   )

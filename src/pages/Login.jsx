@@ -20,7 +20,7 @@ function Login() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-950 via-slate-900 to-gray-950 text-white flex items-center justify-center px-4">
       <div className="bg-white/5 border border-white/10 rounded-2xl p-8 w-full max-w-md shadow-lg">
-        <h1 className="text-3xl font-bold text-emerald-400 mb-6 text-center">
+        <h1 className="text-3xl font-bold text-white-400 mb-6 text-center">
           Login to NPL
         </h1>
 

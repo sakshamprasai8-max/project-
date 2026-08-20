@@ -27,7 +27,7 @@ const teams = [
     name: 'Chitwan Rhinos',
     logo: chitwanLogo,
     captain: 'Kushal Malla',
-    coach: 'Umesh Patwal',
+    coach: 'Sohail Tanvir',
     region: 'Chitwan',
     color: 'from-green-700 to-green-900',
     description: 'Owned by Chitwan Medical College, known for a strong bowling attack named after the famous Chitwan National Park.',
